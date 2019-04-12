@@ -17,7 +17,7 @@
       "fullUrl": "https://r3.smarthealthit.org/RiskAssessment/smart-1923-risk-assess",
       "resource": {
 		  "resourceType": "RiskAssessment",
-		  "id": "prognosis",
+		  "id": "risk-add-drug-zocor",
 		  "text": {
 			"status": "additional",
 			"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
@@ -27,7 +27,7 @@
 			"reference": "Patient/smart-1768562"
 		  },
 		  "condition": {
-			"reference": "Condition/ryan-Condition-test1"
+			"reference": "Condition/ryan-Condition-add-zocor"
 		  }
 		},
       "search": {
@@ -37,7 +37,7 @@
 	{ 
 		"resource": {
 		  "resourceType": "Condition",
-		  "id": "ryan-Condition-test1",
+		  "id": "ryan-Condition-add-zocor",
 		  "text": {
 			"status": "generated",
 			"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
@@ -120,7 +120,7 @@
 				  "code": "198211",
 				  "display": "Simvastatin 40 MG Oral Tablet"
 				}
-			  ],
+			  ]
 			},
 		  "valueQuantity": {
 			"value": 6.3,
@@ -161,10 +161,9 @@
 				{
 				  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
 				  "code": "1187974",
-				  "display": "	
-Zocor Pill"
+				  "display": "Zocor Pill"
 				}
-			  ],
+			  ]
 			},
 		  "valueQuantity": {
 			"value": 6.3,
