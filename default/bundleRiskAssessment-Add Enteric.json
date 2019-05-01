@@ -23,9 +23,6 @@
 			"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
 		  },
 		  "status": "final",
-		  "subject": {
-			"reference": "Patient/smart-1768562"
-		  },
 		  "condition": {
 			"reference": "Condition/ryan-Condition-Add-enteric"
 		  }
@@ -41,9 +38,6 @@
 		  "text": {
 			"status": "generated",
 			"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
-		  },
-		  "subject": {
-			"reference": "Patient/smart-1768562"
 		  },
 		  "onsetDateTime": "2012-05-24",
 		  "stage":{
