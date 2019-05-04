@@ -20,7 +20,7 @@
 				"id": "risk-add-drug-enteric",
 				"text": {
 					"status": "additional",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Check for the presence or absense of enteric</p>\n    </div>"
 				},
 				"condition": {
 					"reference": "Condition/ryan-Condition-Add-enteric"
@@ -33,7 +33,7 @@
 				"id": "ryan-Condition-Add-enteric",
 				"text": {
 					"status": "generated",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Check for the presence or absense of enteric</div>"
 				},
 				"stage": {
 					"assessment": [
