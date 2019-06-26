@@ -2,7 +2,7 @@
 	"resourceType": "Bundle",
 	"type": "transaction",
 	"meta": {
-	   "lastUpdated": "2019-06-03T13:29:30.035Z"
+	   "lastUpdated": "2019-06-26T01:59:14.554Z"
 	},
 	"entry": [
 	   {
@@ -97,28 +97,32 @@
 		  "resource": {
 			 "resourceType": "Observation",
 			 "id": "drug-detection-like-indocin",
-			 "code": {
-				"coding": [
-				   {
-					  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-					  "display": "like indocin"
-				   }
-				]
-			 },
-			 "interpretation": {
-				"coding": [
-				   {
-					  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-					  "code": "DET",
-					  "display": "Detected"
-				   }
-				]
-			 },
-			 "referenceRange": [
+			 "component": [
 				{
-				   "low": {
-					  "value": "1.0"
-				   }
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like indocin"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
 				}
 			 ]
 		  }
@@ -132,28 +136,32 @@
 		  "resource": {
 			 "resourceType": "Observation",
 			 "id": "drug-detection-like-indomethacin",
-			 "code": {
-				"coding": [
-				   {
-					  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-					  "display": "like indomethacin"
-				   }
-				]
-			 },
-			 "interpretation": {
-				"coding": [
-				   {
-					  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-					  "code": "DET",
-					  "display": "Detected"
-				   }
-				]
-			 },
-			 "referenceRange": [
+			 "component": [
 				{
-				   "low": {
-					  "value": "1.0"
-				   }
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like indomethacin"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
 				}
 			 ]
 		  }
@@ -167,28 +175,32 @@
 		  "resource": {
 			 "resourceType": "Observation",
 			 "id": "drug-detection-like-sprix",
-			 "code": {
-				"coding": [
-				   {
-					  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-					  "display": "like sprix"
-				   }
-				]
-			 },
-			 "interpretation": {
-				"coding": [
-				   {
-					  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-					  "code": "DET",
-					  "display": "Detected"
-				   }
-				]
-			 },
-			 "referenceRange": [
+			 "component": [
 				{
-				   "low": {
-					  "value": "1.0"
-				   }
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like sprix"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
 				}
 			 ]
 		  }
@@ -202,28 +214,32 @@
 		  "resource": {
 			 "resourceType": "Observation",
 			 "id": "drug-detection-like-toradol",
-			 "code": {
-				"coding": [
-				   {
-					  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-					  "display": "like toradol"
-				   }
-				]
-			 },
-			 "interpretation": {
-				"coding": [
-				   {
-					  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-					  "code": "DET",
-					  "display": "Detected"
-				   }
-				]
-			 },
-			 "referenceRange": [
+			 "component": [
 				{
-				   "low": {
-					  "value": "1.0"
-				   }
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like toradol"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
 				}
 			 ]
 		  }
@@ -237,28 +253,32 @@
 		  "resource": {
 			 "resourceType": "Observation",
 			 "id": "drug-detection-like-ketorolac",
-			 "code": {
-				"coding": [
-				   {
-					  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-					  "display": "like ketorolac"
-				   }
-				]
-			 },
-			 "interpretation": {
-				"coding": [
-				   {
-					  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-					  "code": "DET",
-					  "display": "Detected"
-				   }
-				]
-			 },
-			 "referenceRange": [
+			 "component": [
 				{
-				   "low": {
-					  "value": "1.0"
-				   }
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like ketorolac"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
 				}
 			 ]
 		  }
@@ -272,43 +292,47 @@
 		  "resource": {
 			 "resourceType": "Observation",
 			 "id": "drug-detection-ketorolac-tromethamine",
-			 "code": {
-				"coding": [
-				   {
-					  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-					  "code": "28200",
-					  "display": "Ketorolac Tromethamine"
-				   }
-				]
-			 },
-			 "valueRange": {
-				"low": {
-				   "value": "0.4",
-				   "unit": "%",
-				   "system": "http://unitsofmeasure.org",
-				   "code": "%"
-				},
-				"high": {
-				   "value": "0.5",
-				   "unit": "%",
-				   "system": "http://unitsofmeasure.org",
-				   "code": "%"
-				}
-			 },
-			 "interpretation": {
-				"coding": [
-				   {
-					  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-					  "code": "ND",
-					  "display": "Not detected"
-				   }
-				]
-			 },
-			 "referenceRange": [
+			 "component": [
 				{
-				   "high": {
-					  "value": "0.0"
-				   }
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "28200",
+							"display": "Ketorolac Tromethamine"
+						 }
+					  ]
+				   },
+				   "valueRange": {
+					  "low": {
+						 "value": "0.4",
+						 "unit": "%",
+						 "system": "http://unitsofmeasure.org",
+						 "code": "%"
+					  },
+					  "high": {
+						 "value": "0.5",
+						 "unit": "%",
+						 "system": "http://unitsofmeasure.org",
+						 "code": "%"
+					  }
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "ND",
+							"display": "Not detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "high": {
+							"value": "0.0"
+						 }
+					  }
+				   ]
 				}
 			 ]
 		  }
