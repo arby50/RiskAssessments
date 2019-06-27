@@ -1,0 +1,150 @@
+﻿{
+   "resourceType": "Bundle",
+   "type": "transaction",
+   "meta": {
+      "lastUpdated": "2019-06-26T00:21:52.729Z"
+   },
+   "entry": [
+      {
+         "fullUrl": "RiskAssessment/risk-pdc-simvastatin",
+         "request": {
+            "method": "PUT",
+            "url": "RiskAssessment/risk-pdc-simvastatin"
+         },
+         "resource": {
+            "resourceType": "RiskAssessment",
+            "id": "risk-pdc-simvastatin",
+            "text": {
+               "status": "additional",
+               "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Current use of medication makes this cost savings inappropriate</p>\n    </div>"
+            },
+            "condition": {
+               "reference": "Condition/ryan-Condition-pdc-simvastatin"
+            }
+         }
+      },
+      {
+         "fullUrl": "Condition/ryan-Condition-pdc-simvastatin",
+         "request": {
+            "method": "PUT",
+            "url": "Condition/ryan-Condition-pdc-simvastatin"
+         },
+         "resource": {
+            "resourceType": "Condition",
+            "id": "ryan-Condition-pdc-simvastatin",
+            "text": {
+               "status": "generated",
+               "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Current use of medication makes this cost savings inappropriate</div>"
+            },
+            "stage": {
+               "assessment": [
+                  {
+                     "reference": "Observation/gender-identity"
+                  },
+                  {
+                     "reference": "Observation/age-identity"
+                  },
+                  {
+                     "reference": "Observation/drug-pdc-simvastatin"
+                  }
+               ]
+            }
+         }
+      },
+      {
+         "fullUrl": "Observation/gender-identity",
+         "request": {
+            "method": "PUT",
+            "url": "Observation/gender-identity"
+         },
+         "resource": {
+            "resourceType": "Observation",
+            "id": "gender-identity",
+            "code": {
+               "coding": [
+                  {
+                     "system": "http://loinc.org",
+                     "code": "76691-5",
+                     "display": "Gender identity"
+                  }
+               ],
+               "text": "Gender identity"
+            },
+            "valueQuantity": {
+               "value": "2.0",
+               "system": "http://loinc.org",
+               "code": "Identifies as female"
+            }
+         }
+      },
+      {
+         "fullUrl": "Observation/age-identity",
+         "request": {
+            "method": "PUT",
+            "url": "Observation/age-identity"
+         },
+         "resource": {
+            "resourceType": "Observation",
+            "id": "age-identity",
+            "code": {
+               "coding": [
+                  {
+                     "system": "http://loinc.org",
+                     "code": "30525-0",
+                     "display": "Age"
+                  }
+               ],
+               "text": "Age"
+            },
+            "valueQuantity": {
+               "value": "65.0",
+               "system": "http://loinc.org"
+            }
+         }
+      },
+      {
+         "fullUrl": "Observation/drug-pdc-simvastatin",
+         "request": {
+            "method": "PUT",
+            "url": "Observation/drug-pdc-simvastatin"
+         },
+         "resource": {
+            "resourceType": "Observation",
+            "id": "drug-pdc-simvastatin",
+            "text": {
+               "status": "generated",
+               "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: f001</p><p><b>identifier</b>: 6323 (OFFICIAL)</p><p><b>status</b>: final</p><p><b>code</b>: Glucose [Moles/volume] in Blood <span>(Details : {LOINC code '15074-8' = 'Glucose [Moles/volume] in Blood', given as 'Glucose [Moles/volume] in Blood'})</span></p><p><b>subject</b>: <a>P. van de Heuvel</a></p><p><b>effective</b>: 02/04/2013 9:30:10 AM --&gt; (ongoing)</p><p><b>issued</b>: 03/04/2013 3:30:10 PM</p><p><b>performer</b>: <a>A. Langeveld</a></p><p><b>value</b>: 6.3 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></p><p><b>interpretation</b>: High <span>(Details : {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation code 'H' = 'High', given as 'High'})</span></p><h3>ReferenceRanges</h3><table><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td>*</td><td>3.1 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td><td>6.2 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td></tr></table></div>"
+            },
+            "component": [
+               {
+                  "code": {
+                     "coding": [
+                        {
+                           "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                           "code": "198211",
+                           "display": "Simvastatin 40 MG Oral Tablet"
+                        }
+                     ]
+                  },
+                  "interpretation": {
+                     "coding": [
+                        {
+                           "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                           "code": "LX",
+                           "display": "Below low threshold"
+                        }
+                     ]
+                  },
+                  "referenceRange": [
+                     {
+                        "low": {
+                           "value": "80"
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   ]
+}
