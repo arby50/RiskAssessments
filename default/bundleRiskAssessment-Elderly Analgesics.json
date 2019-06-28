@@ -19,19 +19,19 @@
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Elderly patient taking ketorolac</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/ryan-Condition-elderly-analgesics"
+				"reference": "Condition/condition-elderly-analgesics"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/ryan-Condition-elderly-analgesics",
+		  "fullUrl": "Condition/condition-elderly-analgesics",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/ryan-Condition-elderly-analgesics"
+			 "url": "Condition/condition-elderly-analgesics"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "ryan-Condition-elderly-analgesics",
+			 "id": "condition-elderly-analgesics",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Elderly patient taking ketorolac</div>"
@@ -40,9 +40,6 @@
 				"assessment": [
 				   {
 					  "reference": "Observation/age-identity"
-				   },
-				   {
-					  "reference": "Observation/drug-detection-ketorolac-tromethamine"
 				   },
 				   {
 					  "reference": "Observation/drug-detection-analgesics"
@@ -77,21 +74,61 @@
 		  }
 	   },
 	   {
-		  "fullUrl": "Observation/drug-detection-analgesics",
-		  "request": {
-			 "method": "PUT",
-			 "url": "Observation/drug-detection-analgesics"
+		"fullUrl": "Observation/drug-detection-analgesics",
+		"resource": {
+		  "resourceType": "Observation",
+		  "id": "drug-detection-analgesics",
+		  "code": {
+			"text": "drug-detection-analgesics"
 		  },
-		  "resource": {
-			 "resourceType": "Observation",
-			 "id": "drug-detection-analgesics",
-			 "component": [
-				{
+		  "hasMember": [
+			{
+			  "reference": "Observation/drug-detection-analgesics-like"
+			},
+			{
+			  "reference": "Observation/drug-detection-except-ketorolac-tromethamine"
+			}
+		  ]
+		}
+	  },
+	  {
+		 "fullUrl": "Observation/drug-detection-analgesics-like",
+		 "resource": {
+			"resourceType": "Observation",
+			"id": "drug-detection-analgesics-like",
+			"component": [
+			   {
+				  "code": {
+					 "coding": [
+						{
+						   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+						   "display": "like indocin"
+						}
+					 ]
+				  },
+				  "interpretation": {
+					 "coding": [
+						{
+						   "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+						   "code": "DET",
+						   "display": "Detected"
+						}
+					 ]
+				  },
+				  "referenceRange": [
+					 {
+						"low": {
+						   "value": "1.0"
+						}
+					 }
+				  ]
+			   },
+			   {
 				   "code": {
 					  "coding": [
 						 {
 							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-							"display": "like indocin"
+							"display": "like indomethacin"
 						 }
 					  ]
 				   },
@@ -111,154 +148,137 @@
 						 }
 					  }
 				   ]
-				},
-				{
-					"code": {
-					   "coding": [
-						  {
-							 "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-							 "display": "like indomethacin"
-						  }
-					   ]
-					},
-					"interpretation": {
-					   "coding": [
-						  {
-							 "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-							 "code": "DET",
-							 "display": "Detected"
-						  }
-					   ]
-					},
-					"referenceRange": [
-					   {
-						  "low": {
-							 "value": "1.0"
-						  }
-					   }
-					]
-				},
-				{
-					"code": {
-					   "coding": [
-						  {
-							 "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-							 "display": "like sprix"
-						  }
-					   ]
-					},
-					"interpretation": {
-					   "coding": [
-						  {
-							 "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-							 "code": "DET",
-							 "display": "Detected"
-						  }
-					   ]
-					},
-					"referenceRange": [
-					   {
-						  "low": {
-							 "value": "1.0"
-						  }
-					   }
-					]
-				},
-				{
-					"code": {
-					   "coding": [
-						  {
-							 "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-							 "display": "like toradol"
-						  }
-					   ]
-					},
-					"interpretation": {
-					   "coding": [
-						  {
-							 "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-							 "code": "DET",
-							 "display": "Detected"
-						  }
-					   ]
-					},
-					"referenceRange": [
-					   {
-						  "low": {
-							 "value": "1.0"
-						  }
-					   }
-					]
-				},
-				{
-					"code": {
-					   "coding": [
-						  {
-							 "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-							 "display": "like ketorolac"
-						  }
-					   ]
-					},
-					"interpretation": {
-					   "coding": [
-						  {
-							 "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-							 "code": "DET",
-							 "display": "Detected"
-						  }
-					   ]
-					},
-					"referenceRange": [
-					   {
-						  "low": {
-							 "value": "1.0"
-						  }
-					   }
-					]
-				},
-				{
-					"code": {
-					   "coding": [
-						  {
-							 "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-							 "code": "28200",
-							 "display": "Ketorolac Tromethamine"
-						  }
-					   ]
-					},
-					"valueRange": {
-					   "low": {
-						  "value": "0.4",
-						  "unit": "%",
-						  "system": "http://unitsofmeasure.org",
-						  "code": "%"
-					   },
-					   "high": {
-						  "value": "0.5",
-						  "unit": "%",
-						  "system": "http://unitsofmeasure.org",
-						  "code": "%"
-					   }
-					},
-					"interpretation": {
-					   "coding": [
-						  {
-							 "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-							 "code": "ND",
-							 "display": "Not detected"
-						  }
-					   ]
-					},
-					"referenceRange": [
-					   {
-						  "high": {
-							 "value": "0.0"
-						  }
-					   }
-					]
-				 }
-			 ]
-		  }
-	   }
+			   },
+			   {
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like sprix"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
+			   },
+			   {
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like toradol"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
+			   },
+			   {
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"display": "like ketorolac"
+						 }
+					  ]
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
+			   }
+			]
+		 }
+	  },
+	  {
+		 "fullUrl": "Observation/drug-detection-except-ketorolac-tromethamine",
+		 "resource": {
+			"resourceType": "Observation",
+			"id": "drug-detection-except-ketorolac-tromethamine",
+			"component": [
+			   {
+				   "code": {
+					  "coding": [
+						 {
+							"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+							"code": "28200",
+							"display": "Ketorolac Tromethamine"
+						 }
+					  ]
+				   },
+				   "valueRange": {
+					  "low": {
+						 "value": "0.4",
+						 "unit": "%",
+						 "system": "http://unitsofmeasure.org",
+						 "code": "%"
+					  },
+					  "high": {
+						 "value": "0.5",
+						 "unit": "%",
+						 "system": "http://unitsofmeasure.org",
+						 "code": "%"
+					  }
+				   },
+				   "interpretation": {
+					  "coding": [
+						 {
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "ND",
+							"display": "Not detected"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "high": {
+							"value": "0.0"
+						 }
+					  }
+				   ]
+				}
+			]
+		 }
+	  }
 	]
  }
