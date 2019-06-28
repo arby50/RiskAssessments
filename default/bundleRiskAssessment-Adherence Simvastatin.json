@@ -6,10 +6,10 @@
    },
    "entry": [
       {
-         "fullUrl": "RiskAssessment/risk-pdc-simvastatin",
+         "fullUrl": "RiskAssessment/risk-adherence-simvastatin",
          "request": {
             "method": "PUT",
-            "url": "RiskAssessment/risk-pdc-simvastatin"
+            "url": "RiskAssessment/risk-adherence-simvastatin"
          },
          "resource": {
             "resourceType": "RiskAssessment",
@@ -19,19 +19,19 @@
                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Current use of medication makes this cost savings inappropriate</p>\n    </div>"
             },
             "condition": {
-               "reference": "Condition/ryan-Condition-pdc-simvastatin"
+               "reference": "Condition/condition-adherence-simvastatin"
             }
          }
       },
       {
-         "fullUrl": "Condition/ryan-Condition-pdc-simvastatin",
+         "fullUrl": "Condition/condition-adherence-simvastatin",
          "request": {
             "method": "PUT",
-            "url": "Condition/ryan-Condition-pdc-simvastatin"
+            "url": "Condition/condition-adherence-simvastatin"
          },
          "resource": {
             "resourceType": "Condition",
-            "id": "ryan-Condition-pdc-simvastatin",
+            "id": "condition-adherence-simvastatin",
             "text": {
                "status": "generated",
                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Current use of medication makes this cost savings inappropriate</div>"
