@@ -102,6 +102,15 @@
 			"resource": {
 				"resourceType": "Observation",
 				"id": "drug-detection-analgesics-like",
+				"interpretation": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "DET",
+							"display": "Detected"
+						}
+					]
+				},
 				"component": [
 					{
 						"code": {
@@ -109,15 +118,6 @@
 								{
 									"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
 									"display": "like indocin"
-								}
-							]
-						},
-						"interpretation": {
-							"coding": [
-								{
-									"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-									"code": "DET",
-									"display": "Detected"
 								}
 							]
 						},
@@ -138,15 +138,6 @@
 								}
 							]
 						},
-						"interpretation": {
-							"coding": [
-								{
-									"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-									"code": "DET",
-									"display": "Detected"
-								}
-							]
-						},
 						"referenceRange": [
 							{
 								"low": {
@@ -161,15 +152,6 @@
 								{
 									"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
 									"display": "like sprix"
-								}
-							]
-						},
-						"interpretation": {
-							"coding": [
-								{
-									"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-									"code": "DET",
-									"display": "Detected"
 								}
 							]
 						},
@@ -190,15 +172,6 @@
 								}
 							]
 						},
-						"interpretation": {
-							"coding": [
-								{
-									"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-									"code": "DET",
-									"display": "Detected"
-								}
-							]
-						},
 						"referenceRange": [
 							{
 								"low": {
@@ -213,15 +186,6 @@
 								{
 									"system": "http://www.nlm.nih.gov/research/umls/rxnorm",
 									"display": "like ketorolac"
-								}
-							]
-						},
-						"interpretation": {
-							"coding": [
-								{
-									"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-									"code": "DET",
-									"display": "Detected"
 								}
 							]
 						},
@@ -241,6 +205,15 @@
 			"resource": {
 				"resourceType": "Observation",
 				"id": "drug-detection-except-ketorolac-tromethamine",
+				"interpretation": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+							"code": "NEG",
+							"display": "Negative"
+						}
+					]
+				},
 				"component": [
 					{
 						"code": {
@@ -265,15 +238,6 @@
 								"system": "http://unitsofmeasure.org",
 								"code": "%"
 							}
-						},
-						"interpretation": {
-							"coding": [
-								{
-									"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-									"code": "NEG",
-									"display": "Negative"
-								}
-							]
 						},
 						"referenceRange": [
 							{

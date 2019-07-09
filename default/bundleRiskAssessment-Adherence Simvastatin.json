@@ -141,15 +141,6 @@
                            "display": "Simvastatin 40 MG Oral Tablet"
                         }
                      ]
-                  },
-                  "interpretation": {
-                    "coding": [
-                      {
-                        "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-                        "code": "DET",
-                        "display": "Detected"
-                      }
-                    ]
                   }
                }
             ]
