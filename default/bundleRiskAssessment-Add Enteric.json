@@ -193,14 +193,7 @@
 					  "unit": "mmol/L",
 					  "system": "http://unitsofmeasure.org",
 					  "code": "mmol/L"
-				   },
-				   "referenceRange": [
-					  {
-						 "high": {
-							"value": "0.0"
-						 }
-					  }
-				   ]
+				   }
 				}
 			 ]
 		  }
