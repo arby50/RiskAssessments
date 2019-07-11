@@ -238,14 +238,7 @@
 								"system": "http://unitsofmeasure.org",
 								"code": "%"
 							}
-						},
-						"referenceRange": [
-							{
-								"high": {
-									"value": "0.0"
-								}
-							}
-						]
+						}
 					}
 				]
 			}
