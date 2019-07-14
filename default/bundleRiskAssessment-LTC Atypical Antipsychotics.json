@@ -6,32 +6,32 @@
 	},
 	"entry": [
 	   {
-		  "fullUrl": "RiskAssessment/risk-fyi-metformin",
+		  "fullUrl": "RiskAssessment/risk-ltc-atypical-antipsychotic",
 		  "request": {
 			 "method": "PUT",
-			 "url": "RiskAssessment/risk-fyi-metformin"
+			 "url": "RiskAssessment/risk-ltc-atypical-antipsychotic"
 		  },
 		  "resource": {
 			 "resourceType": "RiskAssessment",
-			 "id": "risk-fyi-metformin",
+			 "id": "risk-ltc-atypical-antipsychotic",
 			 "text": {
 				"status": "additional",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/ryan-Condition-fyi-metformin"
+				"reference": "Condition/ryan-Condition-ltc-atypical-antipsychotic"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/ryan-Condition-fyi-metformin",
+		  "fullUrl": "Condition/ryan-Condition-ltc-atypical-antipsychotic",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/ryan-Condition-fyi-metformin"
+			 "url": "Condition/ryan-Condition-ltc-atypical-antipsychotic"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "ryan-Condition-fyi-metformin",
+			 "id": "ryan-Condition-ltc-atypical-antipsychotic",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
@@ -45,7 +45,7 @@
 					  "reference": "Observation/age-identity"
 				   },
 				   {
-					  "reference": "Observation/drug-detection-metformin"
+					  "reference": "Observation/drug-detection-atypical-antipsychotic"
 				   }
 				]
 			 }
@@ -103,14 +103,14 @@
 		  }
 	   },
 	   {
-		  "fullUrl": "Observation/drug-detection-metformin",
+		  "fullUrl": "Observation/drug-detection-atypical-antipsychotic",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Observation/drug-detection-metformin"
+			 "url": "Observation/drug-detection-atypical-antipsychotic"
 		  },
 		  "resource": {
 			 "resourceType": "Observation",
-			 "id": "drug-detection-metformin",
+			 "id": "drug-detection-atypical-antipsychotic",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: f001</p><p><b>identifier</b>: 6323 (OFFICIAL)</p><p><b>status</b>: final</p><p><b>code</b>: Glucose [Moles/volume] in Blood <span>(Details : {LOINC code '15074-8' = 'Glucose [Moles/volume] in Blood', given as 'Glucose [Moles/volume] in Blood'})</span></p><p><b>subject</b>: <a>P. van de Heuvel</a></p><p><b>effective</b>: 02/04/2013 9:30:10 AM --&gt; (ongoing)</p><p><b>issued</b>: 03/04/2013 3:30:10 PM</p><p><b>performer</b>: <a>A. Langeveld</a></p><p><b>value</b>: 6.3 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></p><p><b>interpretation</b>: High <span>(Details : {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation code 'H' = 'High', given as 'High'})</span></p><h3>ReferenceRanges</h3><table><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td>*</td><td>3.1 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td><td>6.2 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td></tr></table></div>"
@@ -130,7 +130,8 @@
 					  "coding": [
 						 {
 							"system": "https://www.nlm.nih.gov/epc",
-							"display": "Biguanide"
+							"code": "N0000175430",
+							"display": "Atypical Antipsychotic"
 						 }
 					  ]
 				   },
