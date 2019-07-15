@@ -6,32 +6,32 @@
 	},
 	"entry": [
 	   {
-		  "fullUrl": "RiskAssessment/risk-ddt-arbs",
+		  "fullUrl": "RiskAssessment/risk-duplicate-therapy-arbs",
 		  "request": {
 			 "method": "PUT",
-			 "url": "RiskAssessment/risk-ddt-arbs"
+			 "url": "RiskAssessment/risk-duplicate-therapy-arbs"
 		  },
 		  "resource": {
 			 "resourceType": "RiskAssessment",
-			 "id": "risk-ddt-arbs",
+			 "id": "risk-duplicate-therapy-arbs",
 			 "text": {
 				"status": "additional",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/ryan-Condition-ddt-arbs"
+				"reference": "Condition/ryan-Condition-duplicate-therapy-arbs"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/ryan-Condition-ddt-arbs",
+		  "fullUrl": "Condition/ryan-Condition-duplicate-therapy-arbs",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/ryan-Condition-ddt-arbs"
+			 "url": "Condition/ryan-Condition-duplicate-therapy-arbs"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "ryan-Condition-ddt-arbs",
+			 "id": "ryan-Condition-duplicate-therapy-arbs",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
