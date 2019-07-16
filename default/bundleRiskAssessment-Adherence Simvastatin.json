@@ -13,7 +13,7 @@
          },
          "resource": {
             "resourceType": "RiskAssessment",
-            "id": "risk-pdc-simvastatin",
+            "id": "risk-adherence-simvastatin",
             "text": {
                "status": "additional",
                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Current use of medication makes this cost savings inappropriate</p>\n    </div>"
