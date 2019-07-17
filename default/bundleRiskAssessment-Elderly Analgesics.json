@@ -113,6 +113,7 @@
 				},
 				"component": [
 					{
+						"id": "component-drug-detection-analgesics-like",
 						"code": {
 							"coding": [
 								{
@@ -216,6 +217,7 @@
 				},
 				"component": [
 					{
+						"id": "component-drug-detection-except-ketorolac-tromethamine",
 						"code": {
 							"coding": [
 								{

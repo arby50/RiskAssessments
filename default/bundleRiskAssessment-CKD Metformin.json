@@ -126,6 +126,7 @@
 			 },
 			 "component": [
 				{
+					"id": "component-drug-detection-metformin",
 				   "code": {
 					  "coding": [
 						 {

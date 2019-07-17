@@ -126,6 +126,7 @@
 			 },
 			 "component": [
 				{
+					"id": "component-drug-duplicate-therapy-arb",
 				   "code": {
 					  "coding": [
 						 {

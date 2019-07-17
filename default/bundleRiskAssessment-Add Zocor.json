@@ -179,6 +179,7 @@
 			 },
 			 "component": [
 				{
+					"id": "component-drug-detection-zocor",
 				   "code": {
 					  "coding": [
 						 {

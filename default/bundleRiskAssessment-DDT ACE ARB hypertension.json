@@ -120,6 +120,7 @@
 				},
 				"component": [
 					{
+						"id": "component-drug-duplicate-therapy-ace",
 						"code": {
 							"coding": [
 								{
@@ -156,6 +157,7 @@
 				},
 				"component": [
 					{
+						"id": "component-drug-duplicate-therapy-arb",
 						"code": {
 							"coding": [
 								{
