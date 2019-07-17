@@ -133,6 +133,7 @@
             ],
             "component": [
                {
+                  "id": "component-drug-pdc-simvastatin",
                   "code": {
                      "coding": [
                         {
