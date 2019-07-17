@@ -137,8 +137,9 @@
 				   "referenceRange": [
 					  {
 						 "low": {
-							"value": "1.0"
-						 }
+							"value": "2.0"
+						 },
+						 "text": "observation is true if two or more current claims for the patient"
 					  }
 				   ]
 				}
