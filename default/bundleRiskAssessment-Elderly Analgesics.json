@@ -113,7 +113,7 @@
 				},
 				"component": [
 					{
-						"id": "component-drug-detection-analgesics-like",
+						"id": "component-drug-detection-analgesics-like-indocin",
 						"code": {
 							"coding": [
 								{
@@ -131,6 +131,7 @@
 						]
 					},
 					{
+						"id": "component-drug-detection-analgesics-like-indomethacin",
 						"code": {
 							"coding": [
 								{
@@ -148,6 +149,7 @@
 						]
 					},
 					{
+						"id": "component-drug-detection-analgesics-like-sprix",
 						"code": {
 							"coding": [
 								{
@@ -165,6 +167,7 @@
 						]
 					},
 					{
+						"id": "component-drug-detection-analgesics-like-toradol",
 						"code": {
 							"coding": [
 								{
@@ -182,6 +185,7 @@
 						]
 					},
 					{
+						"id": "component-drug-detection-analgesics-like-ketorolac",
 						"code": {
 							"coding": [
 								{
