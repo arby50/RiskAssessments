@@ -192,7 +192,8 @@
 					  ]
 				   },
 				   "valueQuantity": {
-					  "value": "6.3",
+					  "value": "6.0",
+					  "comparator": ">=",
 					  "unit": "mmol/L",
 					  "system": "http://unitsofmeasure.org",
 					  "code": "mmol/L"
