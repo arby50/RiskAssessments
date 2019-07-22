@@ -13,7 +13,7 @@
 			},
 			"resource": {
 				"resourceType": "RiskAssessment",
-				"id": "drug-detection-multiple-component-heart-failure",
+				"id": "risk-drug-detection-multiple-component-heart-failure",
 				"text": {
 					"status": "additional",
 					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Elderly patient taking ketorolac</p>\n    </div>"
