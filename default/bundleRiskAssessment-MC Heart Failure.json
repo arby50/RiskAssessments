@@ -191,37 +191,6 @@
 			"resource": {
 				"resourceType": "Observation",
 				"id": "drug-detection-diabetes",
-				"code": {
-					"text": "drug-detection-diabetes"
-				},
-				"related": [
-					{
-						"type": "has-member",
-						"target": {
-							"reference": "Observation/drug-detection-diabetes-include"
-						}
-					},
-					{
-						"type": "has-member",
-						"target": {
-							"reference": "Observation/drug-detection-diabetes-except"
-						}
-					}
-				],
-				"referenceRange": [
-					{
-						"low": {
-							"value": "2.0"
-						}
-					}
-				]
-			}
-		},
-		{
-			"fullUrl": "Observation/drug-detection-diabetes-include",
-			"resource": {
-				"resourceType": "Observation",
-				"id": "drug-detection-diabetes-include",
 				"interpretation": {
 					"coding": [
 						{
@@ -231,6 +200,21 @@
 						}
 					]
 				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": "2.0"
+						}
+					}
+				],
+				"related": [
+					{
+						"type": "has-member",
+						"target": {
+							"reference": "Observation/drug-detection-diabetes-except"
+						}
+					}
+				],
 				"component": [
 					{
 						"id": "drug-detection-diabetes-include-biguanide",
@@ -241,14 +225,7 @@
 								 "display": "Biguanide"
 							  }
 						   ]
-						},
-						"referenceRange": [
-							{
-								"low": {
-									"value": "1.0"
-								}
-							}
-						]
+						}
 					},
 					{
 						"id": "component-drug-detection-analgesics-like-freestyle",
@@ -259,14 +236,7 @@
 									"display": "like freestyle"
 								}
 							]
-						},
-						"referenceRange": [
-							{
-								"low": {
-									"value": "1.0"
-								}
-							}
-						]
+						}
 					},
 					{
 						"id": "component-drug-detection-analgesics-like-glucocard",
@@ -277,14 +247,7 @@
 									"display": "like glucocard"
 								}
 							]
-						},
-						"referenceRange": [
-							{
-								"low": {
-									"value": "1.0"
-								}
-							}
-						]
+						}
 					},
 					{
 						"id": "drug-detection-diabetes-include-Hypoglycemics",
@@ -296,14 +259,7 @@
 								 "display": "Dipeptidyl Peptidase 4 Inhibitor"
 							  }
 						   ]
-						},
-						"referenceRange": [
-							{
-								"low": {
-									"value": "1.0"
-								}
-							}
-						]
+						}
 					}					
 				]
 			}
