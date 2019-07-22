@@ -78,30 +78,14 @@
 			"resource": {
 				"resourceType": "Observation",
 				"id": "drug-detection-analgesics",
-				"code": {
-					"text": "drug-detection-analgesics"
-				},
 				"related": [
-					{
-						"type": "has-member",
-						"target": {
-							"reference": "Observation/drug-detection-analgesics-like"
-						}
-					},
 					{
 						"type": "has-member",
 						"target": {
 							"reference": "Observation/drug-detection-except-ketorolac-tromethamine"
 						}
 					}
-				]
-			}
-		},
-		{
-			"fullUrl": "Observation/drug-detection-analgesics-like",
-			"resource": {
-				"resourceType": "Observation",
-				"id": "drug-detection-analgesics-like",
+				],
 				"interpretation": {
 					"coding": [
 						{

@@ -285,7 +285,26 @@
 								}
 							}
 						]
-					}
+					},
+					{
+						"id": "drug-detection-diabetes-include-Hypoglycemics",
+						"code": {
+						   "coding": [
+							  {
+								 "system": "https://www.nlm.nih.gov/epc",
+								 "code": "N0000175913",
+								 "display": "Dipeptidyl Peptidase 4 Inhibitor"
+							  }
+						   ]
+						},
+						"referenceRange": [
+							{
+								"low": {
+									"value": "1.0"
+								}
+							}
+						]
+					}					
 				]
 			}
 		},
