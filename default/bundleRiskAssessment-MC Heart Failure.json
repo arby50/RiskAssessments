@@ -126,6 +126,13 @@
 						}
 					]
 				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": "2.0"
+						}
+					}
+				],
 				"component": [
 					{
 						"id": "component-drug-detection-heart-failure-metolazone",
@@ -278,6 +285,13 @@
 						}
 					]
 				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": "2.0"
+						}
+					}
+				],
 				"component": [
 					{
 						"id": "component-drug-detection-except-ketorolac-tromethamine",
@@ -307,6 +321,13 @@
 						}
 					]
 				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": "2.0"
+						}
+					}
+				],
 				"component": [
 					{
 						"id": "component-drug-detection-depression-like-serzone",
@@ -347,6 +368,13 @@
 						}
 					]
 				},
+				"referenceRange": [
+					{
+						"low": {
+							"value": "2.0"
+						}
+					}
+				],
 				"component": [
 					{
 						"id": "component-drug-detection-depression-like-lovaza",
