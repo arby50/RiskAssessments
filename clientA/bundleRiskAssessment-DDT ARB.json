@@ -1,0 +1,151 @@
+{
+	"resourceType": "Bundle",
+	"type": "transaction",
+	"meta": {
+	   "lastUpdated": "2019-06-26T01:40:53.363Z"
+	},
+	"entry": [
+	   {
+		  "fullUrl": "RiskAssessment/risk-duplicate-therapy-arbs",
+		  "request": {
+			 "method": "PUT",
+			 "url": "RiskAssessment/risk-duplicate-therapy-arbs"
+		  },
+		  "resource": {
+			 "resourceType": "RiskAssessment",
+			 "id": "risk-duplicate-therapy-arbs",
+			 "text": {
+				"status": "additional",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
+			 },
+			 "condition": {
+				"reference": "Condition/ryan-Condition-duplicate-therapy-arbs"
+			 }
+		  }
+	   },
+	   {
+		  "fullUrl": "Condition/ryan-Condition-duplicate-therapy-arbs",
+		  "request": {
+			 "method": "PUT",
+			 "url": "Condition/ryan-Condition-duplicate-therapy-arbs"
+		  },
+		  "resource": {
+			 "resourceType": "Condition",
+			 "id": "ryan-Condition-duplicate-therapy-arbs",
+			 "text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
+			 },
+			 "stage": {
+				"assessment": [
+				   {
+					  "reference": "Observation/gender-identity"
+				   },
+				   {
+					  "reference": "Observation/age-identity"
+				   },
+				   {
+					  "reference": "Observation/drug-duplicate-therapy-arb"
+				   }
+				]
+			 }
+		  }
+	   },
+	   {
+		  "fullUrl": "Observation/gender-identity",
+		  "request": {
+			 "method": "PUT",
+			 "url": "Observation/gender-identity"
+		  },
+		  "resource": {
+			 "resourceType": "Observation",
+			 "id": "gender-identity",
+			 "code": {
+				"coding": [
+				   {
+					  "system": "http://loinc.org",
+					  "code": "76691-5",
+					  "display": "Gender identity"
+				   }
+				],
+				"text": "Gender identity"
+			 },
+			 "valueQuantity": {
+				"value": "2.0",
+				"system": "http://loinc.org",
+				"code": "Identifies as female"
+			 }
+		  }
+	   },
+	   {
+		  "fullUrl": "Observation/age-identity",
+		  "request": {
+			 "method": "PUT",
+			 "url": "Observation/age-identity"
+		  },
+		  "resource": {
+			 "resourceType": "Observation",
+			 "id": "age-identity",
+			 "code": {
+				"coding": [
+				   {
+					  "system": "http://loinc.org",
+					  "code": "30525-0",
+					  "display": "Age"
+				   }
+				],
+				"text": "Age"
+			 },
+			 "valueQuantity": {
+				"value": "65.0",
+				"system": "http://loinc.org"
+			 }
+		  }
+	   },
+	   {
+		  "fullUrl": "Observation/drug-duplicate-therapy-arb",
+		  "request": {
+			 "method": "PUT",
+			 "url": "Observation/drug-duplicate-therapy-arb"
+		  },
+		  "resource": {
+			 "resourceType": "Observation",
+			 "id": "drug-duplicate-therapy-arb",
+			 "text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: f001</p><p><b>identifier</b>: 6323 (OFFICIAL)</p><p><b>status</b>: final</p><p><b>code</b>: Glucose [Moles/volume] in Blood <span>(Details : {LOINC code '15074-8' = 'Glucose [Moles/volume] in Blood', given as 'Glucose [Moles/volume] in Blood'})</span></p><p><b>subject</b>: <a>P. van de Heuvel</a></p><p><b>effective</b>: 02/04/2013 9:30:10 AM --&gt; (ongoing)</p><p><b>issued</b>: 03/04/2013 3:30:10 PM</p><p><b>performer</b>: <a>A. Langeveld</a></p><p><b>value</b>: 6.3 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></p><p><b>interpretation</b>: High <span>(Details : {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation code 'H' = 'High', given as 'High'})</span></p><h3>ReferenceRanges</h3><table><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td>*</td><td>3.1 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td><td>6.2 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td></tr></table></div>"
+			 },
+			 "interpretation": {
+				"coding": [
+				   {
+					  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+					  "code": "DET",
+					  "display": "Detected"
+				   }
+				]
+			 },
+			 "component": [
+				{
+					"id": "component-drug-duplicate-therapy-arb",
+				   "code": {
+					  "coding": [
+						 {
+							"system": "https://www.nlm.nih.gov/epc",
+							"code": "N0000175561",
+							"display": "Angiotensin 2 Receptor Blocker"
+						 }
+					  ]
+				   },
+				   "referenceRange": [
+					  {
+						 "low": {
+							"value": "1.0"
+						 }
+					  }
+				   ]
+				}
+			 ]
+		  }
+	   }
+	]
+ }
