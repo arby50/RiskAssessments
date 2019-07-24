@@ -103,7 +103,7 @@
             },
             "referenceRange": [
                {
-                  "low": {
+                  "high": {
                      "value": "20.0"
                   }
                }
