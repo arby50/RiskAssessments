@@ -19,19 +19,19 @@
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/ryan-Condition-fyi-metformin"
+				"reference": "Condition/condition-fyi-metformin"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/ryan-Condition-fyi-metformin",
+		  "fullUrl": "Condition/condition-fyi-metformin",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/ryan-Condition-fyi-metformin"
+			 "url": "Condition/condition-fyi-metformin"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "ryan-Condition-fyi-metformin",
+			 "id": "condition-fyi-metformin",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
