@@ -19,19 +19,19 @@
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Check for the presence or absense of enteric</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/condition-Add-enteric"
+				"reference": "Condition/condition-add-enteric"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/condition-Add-enteric",
+		  "fullUrl": "Condition/condition-add-enteric",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/condition-Add-enteric"
+			 "url": "Condition/condition-add-enteric"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "condition-Add-enteric",
+			 "id": "condition-add-enteric",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Check for the presence or absense of enteric</div>"
