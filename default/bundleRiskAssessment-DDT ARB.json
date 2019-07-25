@@ -19,19 +19,19 @@
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/ryan-Condition-duplicate-therapy-arbs"
+				"reference": "Condition/condition-duplicate-therapy-arbs"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/ryan-Condition-duplicate-therapy-arbs",
+		  "fullUrl": "Condition/condition-duplicate-therapy-arbs",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/ryan-Condition-duplicate-therapy-arbs"
+			 "url": "Condition/condition-duplicate-therapy-arbs"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "ryan-Condition-duplicate-therapy-arbs",
+			 "id": "condition-duplicate-therapy-arbs",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"

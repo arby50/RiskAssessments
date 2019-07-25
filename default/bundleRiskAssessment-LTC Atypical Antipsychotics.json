@@ -19,19 +19,19 @@
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/ryan-Condition-ltc-atypical-antipsychotic"
+				"reference": "Condition/condition-ltc-atypical-antipsychotic"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/ryan-Condition-ltc-atypical-antipsychotic",
+		  "fullUrl": "Condition/condition-ltc-atypical-antipsychotic",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/ryan-Condition-ltc-atypical-antipsychotic"
+			 "url": "Condition/condition-ltc-atypical-antipsychotic"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "ryan-Condition-ltc-atypical-antipsychotic",
+			 "id": "condition-ltc-atypical-antipsychotic",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"

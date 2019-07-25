@@ -19,19 +19,19 @@
                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Current use of medication makes this cost savings inappropriate</p>\n    </div>"
             },
             "condition": {
-               "reference": "Condition/ryan-Condition-current-use-coreg-cr"
+               "reference": "Condition/condition-current-use-coreg-cr"
             }
          }
       },
       {
-         "fullUrl": "Condition/ryan-Condition-current-use-coreg-cr",
+         "fullUrl": "Condition/condition-current-use-coreg-cr",
          "request": {
             "method": "PUT",
-            "url": "Condition/ryan-Condition-current-use-coreg-cr"
+            "url": "Condition/condition-current-use-coreg-cr"
          },
          "resource": {
             "resourceType": "Condition",
-            "id": "ryan-Condition-current-use-coreg-cr",
+            "id": "condition-current-use-coreg-cr",
             "text": {
                "status": "generated",
                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Current use of medication makes this cost savings inappropriate</div>"

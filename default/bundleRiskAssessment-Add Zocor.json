@@ -19,19 +19,19 @@
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
 			 },
 			 "condition": {
-				"reference": "Condition/ryan-Condition-add-zocor"
+				"reference": "Condition/condition-add-zocor"
 			 }
 		  }
 	   },
 	   {
-		  "fullUrl": "Condition/ryan-Condition-add-zocor",
+		  "fullUrl": "Condition/condition-add-zocor",
 		  "request": {
 			 "method": "PUT",
-			 "url": "Condition/ryan-Condition-add-zocor"
+			 "url": "Condition/condition-add-zocor"
 		  },
 		  "resource": {
 			 "resourceType": "Condition",
-			 "id": "ryan-Condition-add-zocor",
+			 "id": "condition-add-zocor",
 			 "text": {
 				"status": "generated",
 				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Severe burn of left ear (Date: 24-May 2012)</div>"
