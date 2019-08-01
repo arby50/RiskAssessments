@@ -16,7 +16,7 @@
 			 "id": "risk-add-drug-enteric",
 			 "text": {
 				"status": "additional",
-				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Check for the presence or absense of enteric</p>\n    </div>"
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p>Check for the presence or absense of enteric</p>\n    </div>"
 			 },
 			 "condition": {
 				"reference": "Condition/condition-add-enteric"
