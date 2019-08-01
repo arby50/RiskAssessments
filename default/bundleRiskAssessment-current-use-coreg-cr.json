@@ -16,7 +16,7 @@
             "id": "risk-current-use-coreg-cr",
             "text": {
                "status": "additional",
-               "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Current use of medication makes this cost savings inappropriate</p>\n    </div>"
+               "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p>Current use of medication makes this cost savings inappropriate</p>\n    </div>"
             },
             "condition": {
                "reference": "Condition/condition-current-use-coreg-cr"

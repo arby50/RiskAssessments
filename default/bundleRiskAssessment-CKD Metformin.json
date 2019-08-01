@@ -16,7 +16,7 @@
 			 "id": "risk-fyi-metformin",
 			 "text": {
 				"status": "additional",
-				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk of permanent weakness of the left arm, but otherwise no permanent disability</p>\n    </div>"
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Moderate risk</p>\n    </div>"
 			 },
 			 "condition": {
 				"reference": "Condition/condition-fyi-metformin"

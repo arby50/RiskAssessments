@@ -16,7 +16,7 @@
 				"id": "risk-duplicate-therapy-ace-arb-hypertension",
 				"text": {
 					"status": "additional",
-					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Elderly patient taking ketorolac</p>\n    </div>"
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p>Elderly patient taking ketorolac</p>\n    </div>"
 				},
 				"condition": {
 					"reference": "Condition/condition-duplicate-therapy-ace-arb-hypertension"
