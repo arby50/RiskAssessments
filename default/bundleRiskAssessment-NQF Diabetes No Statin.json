@@ -9,52 +9,64 @@
   },
   "entry": [
     {
-      "fullUrl": "RiskAssessment/risk-drug-detection-multiple-component-diabetes",
+      "fullUrl": "RiskAssessment/risk-drug-detection-multiple-component-diabetes-no-statin",
       "request": {
         "method": "PUT",
-        "url": "RiskAssessment/risk-drug-detection-multiple-component-diabetes"
+        "url": "RiskAssessment/risk-drug-detection-multiple-component-diabetes-no-statin"
       },
       "resource": {
         "resourceType": "RiskAssessment",
-        "id": "risk-drug-detection-multiple-component-diabetes",
+        "id": "risk-drug-detection-multiple-component-diabetes-no-statin",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>patient with 2 or more medication components that indicate diabetes, HEDIS table CDC-A</p>\n    </div>"
         },
         "condition": {
-          "reference": "Condition/condition-drug-detection-multiple-component-diabetes"
+          "reference": "Condition/condition-drug-detection-diabetes-no-statin"
         }
       }
     },
     {
-      "fullUrl": "Condition/condition-drug-detection-multiple-component-diabetes",
+      "fullUrl": "Condition/condition-drug-detection-diabetes-no-statin",
       "request": {
         "method": "PUT",
-        "url": "Condition/condition-drug-detection-multiple-component-diabetes"
+        "url": "Condition/condition-drug-detection-diabetes-no-statin"
       },
       "resource": {
         "resourceType": "Condition",
-        "id": "condition-drug-detection-multiple-component-diabetes",
+        "id": "condition-drug-detection-diabetes-no-statin",
         "stage": {
           "assessment": [
             {
-              "reference": "Observation/drug-detection-multiple-component-diabetes"
+              "reference": "Observation/drug-detection-diabetes"
+            },
+            {
+              "reference": "Observation/drug-detection-no-statin"
             }
           ]
         }
       }
     },
     {
-      "fullUrl": "Observation/drug-detection-multiple-component-diabetes",
+      "fullUrl": "Observation/drug-detection-diabetes",
       "request": {
         "method": "PUT",
-        "url": "Observation/drug-detection-multiple-component-diabetes"
+        "url": "Observation/drug-detection-diabetes"
       },
       "resource": {
         "resourceType": "Observation",
-        "id": "drug-detection-multiple-component-diabetes",
+        "id": "drug-detection-diabetes",
         "code": {
-          "text": "drug-detection-multiple-component-diabetes"
+          "text": "drug-detection-diabetes"
+        },
+        "interpretation": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "DET",
+              "display": "Detected"
+            }
+          ]
         },
         "referenceRange": [
           {
@@ -2832,6 +2844,1078 @@
               ]
             },
             "referenceRange": [ { "low": { "value": "1.0" } } ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Observation/drug-detection-no-statin",
+      "request": {
+        "method": "PUT",
+        "url": "Observation/drug-detection-no-statin"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "drug-detection-no-statin",
+        "code": {
+          "text": "drug-detection-no-statin"
+        },
+        "interpretation": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "ND",
+              "display": "Not Detected"
+            }
+          ]
+        },
+        "referenceRange": [
+          {
+            "high": {
+              "value": "0.0"
+            }
+          }
+        ],
+        "component": [
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597990",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597990",
+                  "display": "amlodipine-atorvastatin-10-mg-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750207",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750207",
+                  "display": "amlodipine-atorvastatin-10-mg-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-404013",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "404013",
+                  "display": "amlodipine-atorvastatin-10-mg-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750211",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750211",
+                  "display": "amlodipine-atorvastatin-10-mg-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597993",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597993",
+                  "display": "amlodipine-atorvastatin-2.5-mg-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750215",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750215",
+                  "display": "amlodipine-atorvastatin-2.5-mg-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597984",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597984",
+                  "display": "amlodipine-atorvastatin-5-mg-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750235",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750235",
+                  "display": "amlodipine-atorvastatin-5-mg-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-404011",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "404011",
+                  "display": "amlodipine-atorvastatin-5-mg-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750239",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750239",
+                  "display": "amlodipine-atorvastatin-5-mg-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Atorvastatin-Calcium-617311",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "617311",
+                  "display": "atorvastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lipitor-617320",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "617320",
+                  "display": "atorvastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Atorvastatin-Calcium-259255",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "259255",
+                  "display": "atorvastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lipitor-262095",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "262095",
+                  "display": "atorvastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Liptruzet-1422098",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1422098",
+                  "display": "atorvastatin-ezetimibe-40-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Liptruzet-1422101",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1422101",
+                  "display": "atorvastatin-ezetimibe-80-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Vytorin-1245449",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1245449",
+                  "display": "ezetimibe-simvastatin-10-mg-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Crestor-859753",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859753",
+                  "display": "rosuvastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Rosuvastatin-Calcium-859751",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859751",
+                  "display": "rosuvastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Crestor-859421",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859421",
+                  "display": "rosuvastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Rosuvastatin-Calcium-859419",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859419",
+                  "display": "rosuvastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Simvastatin-200345",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "200345",
+                  "display": "simvastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Zocor-213319",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "213319",
+                  "display": "simvastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Vytorin-1245420",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1245420",
+                  "display": "ezetimibe-simvastatin-10-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Fluvastatin-Sodium-310404",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310404",
+                  "display": "fluvastatin-20-mg-oral-capsule"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lescol-104755",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "104755",
+                  "display": "fluvastatin-20-mg-oral-capsule"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lovastatin-197903",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "197903",
+                  "display": "lovastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lovastatin-197904",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "197904",
+                  "display": "lovastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Altoprev-997006",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "997006",
+                  "display": "lovastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Livalo-861646",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "861646",
+                  "display": "pitavastatin-1-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravachol-904460",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904460",
+                  "display": "pravastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravastatin-Sodium-904458",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904458",
+                  "display": "pravastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravachol-904469",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904469",
+                  "display": "pravastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravastatin-Sodium-904467",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904467",
+                  "display": "pravastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Simvastatin-314231",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "314231",
+                  "display": "simvastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Zocor-1242002",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1242002",
+                  "display": "simvastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Simvastatin-312962",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "312962",
+                  "display": "simvastatin-5-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Zocor-208220",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "208220",
+                  "display": "simvastatin-5-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597987",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597987",
+                  "display": "amlodipine-atorvastatin-10-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750199",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750199",
+                  "display": "amlodipine-atorvastatin-10-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597967",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597967",
+                  "display": "amlodipine-atorvastatin-10-mg-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750203",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750203",
+                  "display": "amlodipine-atorvastatin-10-mg-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597971",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597971",
+                  "display": "amlodipine-atorvastatin-2.5-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750223",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750223",
+                  "display": "amlodipine-atorvastatin-2.5-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597974",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597974",
+                  "display": "amlodipine-atorvastatin-2.5-mg-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750219",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750219",
+                  "display": "amlodipine-atorvastatin-2.5-mg-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597977",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597977",
+                  "display": "amlodipine-atorvastatin-5-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750227",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750227",
+                  "display": "amlodipine-atorvastatin-5-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Amlodipine-Besylate-Atorvastatin-597980",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "597980",
+                  "display": "amlodipine-atorvastatin-5-mg-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Caduet-750231",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "750231",
+                  "display": "amlodipine-atorvastatin-5-mg-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Atorvastatin-Calcium-617312",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "617312",
+                  "display": "atorvastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lipitor-617314",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "617314",
+                  "display": "atorvastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Atorvastatin-Calcium-617310",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "617310",
+                  "display": "atorvastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lipitor-617318",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "617318",
+                  "display": "atorvastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Liptruzet-1422092",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1422092",
+                  "display": "atorvastatin-ezetimibe-10-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Liptruzet-1422095",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1422095",
+                  "display": "atorvastatin-ezetimibe-20-mg-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Vytorin-1245430",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1245430",
+                  "display": "ezetimibe-simvastatin-10-mg-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Vytorin-1245441",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1245441",
+                  "display": "ezetimibe-simvastatin-10-mg-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Fluvastatin-Sodium-310405",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310405",
+                  "display": "fluvastatin-40-mg-oral-capsule"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lescol-103919",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "103919",
+                  "display": "fluvastatin-40-mg-oral-capsule"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Fluvastatin-Sodium-360507",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "360507",
+                  "display": "fluvastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lescol-XL-687048",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "687048",
+                  "display": "fluvastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Lovastatin-197905",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "197905",
+                  "display": "lovastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Mevacor-206258",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "206258",
+                  "display": "lovastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Altoprev-997007",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "997007",
+                  "display": "lovastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Livalo-861650",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "861650",
+                  "display": "pitavastatin-2-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Livalo-861654",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "861654",
+                  "display": "pitavastatin-4-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravachol-904477",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904477",
+                  "display": "pravastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravachol-904475",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904475",
+                  "display": "pravastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravastatin-Sodium-904475",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904475",
+                  "display": "pravastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravachol-904483",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904483",
+                  "display": "pravastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Pravastatin-Sodium-904481",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "904481",
+                  "display": "pravastatin-80-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Crestor-859749",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859749",
+                  "display": "rosuvastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Rosuvastatin-Calcium-859747",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859747",
+                  "display": "rosuvastatin-10-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Crestor-859426",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859426",
+                  "display": "rosuvastatin-5-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Rosuvastatin-Calcium-859424",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "859424",
+                  "display": "rosuvastatin-5-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Simvastatin-312961",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "312961",
+                  "display": "simvastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Zocor-1135528",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1135528",
+                  "display": "simvastatin-20-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Simvastatin-198211",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "198211",
+                  "display": "simvastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-no-statin-Zocor-152923",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "152923",
+                  "display": "simvastatin-40-mg-oral-tablet"
+                }
+              ]
+            },
+            "referenceRange": [ { "high": { "value": "0.0" } } ]
           }
         ]
       }
