@@ -9,14 +9,14 @@
   },
   "entry": [
     {
-      "fullUrl": "RiskAssessment/risk-drug-detection-multiple-component-diabetes-no-statin",
+      "fullUrl": "RiskAssessment/risk-drug-detection-diabetes-no-statin",
       "request": {
         "method": "PUT",
-        "url": "RiskAssessment/risk-drug-detection-multiple-component-diabetes-no-statin"
+        "url": "RiskAssessment/risk-drug-detection-diabetes-no-statin"
       },
       "resource": {
         "resourceType": "RiskAssessment",
-        "id": "risk-drug-detection-multiple-component-diabetes-no-statin",
+        "id": "risk-drug-detection-diabetes-no-statin",
         "text": {
           "status": "additional",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>patient with 2 or more medication components that indicate diabetes, HEDIS table CDC-A</p>\n    </div>"
