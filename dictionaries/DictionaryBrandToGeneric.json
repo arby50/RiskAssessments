@@ -1,0 +1,141 @@
+
+[
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1013679",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Oxytetracycline 300 MG/ML Injectable Solution [300 PRO LA]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "584292",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Oxytetracycline 300 MG/ML Injectable Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1307224",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Phenylephrine Hydrochloride 10 MG/ML Nasal Spray [4-Way]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1087043",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Phenylephrine Hydrochloride 10 MG/ML Nasal Spray",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1536549",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Lactic acid 25 MG/ML Topical Solution [4XLA Activator]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1536544",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Lactic acid 25 MG/ML Topical Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  }
+]
