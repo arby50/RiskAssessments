@@ -1,4 +1,3 @@
-{
 [
   {
     "Key": {
@@ -137,6 +136,2066 @@
         "Extension": []
       }
     ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1655071",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Sodium chlorite 6 MG/ML Topical Solution [4XLA Base]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1591985",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sodium chlorite 6 MG/ML Topical Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1650696",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Sodium Fluoride 0.0272 MG/MG Oral Gel [60 Second Taste]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1535362",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sodium Fluoride 0.0272 MG/MG Oral Gel",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "902298",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Sulfadimethoxine 0.507 MG/ML Oral Solution [8-1 Marvel Aid]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "902294",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sulfadimethoxine 0.507 MG/ML Oral Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "207073",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Methoxsalen 10 MG Oral Capsule [8-MOP]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "197947",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Methoxsalen 10 MG Oral Capsule",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1117243",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "dimethicone 10 MG/ML / Zinc Oxide 100 MG/ML Topical Cream [A+D Diaper Rash]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "686403",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "dimethicone 10 MG/ML / Zinc Oxide 100 MG/ML Topical Cream",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "705895",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Lanolin 0.155 MG/MG / Petrolatum 0.534 MG/MG Topical Ointment [A+D Original]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1876729",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "{1 (35000 MG) (Lanolin 0.155 MG/MG / Petrolatum 0.534 MG/MG Topical Ointment) / 1 (35000 MG) (Lidocaine 40 MG/ML Topical Cream) } Pack",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "664981",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Lanolin 0.155 MG/MG / Petrolatum 0.534 MG/MG Topical Ointment",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "208947",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Hydrocortisone 100 MG Injection [A-Hydrocort]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "238755",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Hydrocortisone 100 MG Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "207190",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Methylprednisolone 40 MG Injection [A-MethaPred]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "311659",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Methylprednisolone 40 MG Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1743704",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Methylprednisolone 125 MG Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1099310",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Pseudoephedrine Hydrochloride 6 MG/ML / Triprolidine Hydrochloride 0.25 MG/ML Oral Solution [A-Phedrin]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1099308",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Pseudoephedrine Hydrochloride 6 MG/ML / Triprolidine Hydrochloride 0.25 MG/ML Oral Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1247719",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Witch Hazel 500 MG/ML Medicated Pad [A.E.R. Witch Hazel]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "844379",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Witch Hazel 500 MG/ML Medicated Pad",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1358729",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Clotrimazole 0.01 MG/MG Topical Ointment [Aardora Anti-Fungal Maximum Strength]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1535506",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "{1 (75000 MG) (Clotrimazole 0.01 MG/MG Medicated Bar Soap) / 1 (25000 MG) (Clotrimazole 0.01 MG/MG Topical Ointment) } Pack",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "418475",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Clotrimazole 0.01 MG/MG Topical Ointment",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "984082",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "20 ML amphotericin B lipid complex 5 MG/ML Injection [Abelcet]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "984078",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "20 ML amphotericin B lipid complex 5 MG/ML Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "352307",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "aripiprazole 10 MG Oral Tablet [Abilify]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "349545",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 10 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "349490",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 15 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "349553",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 20 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "349547",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 30 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "402131",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 5 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "485496",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 1 MG/ML Oral Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "602964",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 2 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "643019",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 10 MG Disintegrating Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "643022",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 15 MG Disintegrating Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "672356",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "1.3 ML aripiprazole 7.5 MG/ML Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1602163",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "1.5 ML aripiprazole 200 MG/ML Prefilled Syringe",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1602171",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "2 ML aripiprazole 200 MG/ML Prefilled Syringe",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1659812",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 400 MG Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1659816",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "aripiprazole 300 MG Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1998451",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sensor aripiprazole 10 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1998454",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sensor aripiprazole 15 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1998456",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sensor aripiprazole 2 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1998458",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sensor aripiprazole 20 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1998460",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sensor aripiprazole 30 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1998462",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Sensor aripiprazole 5 MG Oral Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "583218",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Paclitaxel 100 MG Injection [Abraxane]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "583214",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Paclitaxel 100 MG Injection",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "855205",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "docosanol 100 MG/ML Topical Cream [Abreva]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "797534",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "docosanol 100 MG/ML Topical Cream",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1095372",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Benzalkonium Chloride 1.3 MG/ML Topical Cream [Abridge Cold Sore]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1094748",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Benzalkonium Chloride 1.3 MG/ML Topical Cream",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1427379",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Benzalkonium Chloride 1.3 MG/ML / Camphor 30 MG/ML Topical Cream [Abridge Maximum Strength Cold Sore]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1374851",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Benzalkonium Chloride 1.3 MG/ML / Camphor 30 MG/ML Topical Cream",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1095488",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Menthol 0.1 MG/MG Topical Gel [Absorbine]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "259249",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 0.1 MG/MG Topical Gel",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1101472",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 12.7 MG/ML Medicated Pad",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "420222",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 0.05 MG/MG Medicated Patch",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1248743",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 0.065 MG/MG Medicated Patch",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "707185",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Menthol 12.7 MG/ML Topical Solution [Absorbine Jr.]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "283437",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 12.7 MG/ML Topical Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "283438",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 40 MG/ML Topical Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1291226",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 25 MG/ML Topical Cream",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "209662",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Tolnaftate 10 MG/ML Topical Solution [Absorbine Jr. Antifungal]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "313423",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Tolnaftate 10 MG/ML Topical Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "313420",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Tolnaftate 0.01 MG/MG Topical Gel",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "103951",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Tolnaftate 10 MG/ML Topical Cream",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1863554",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Lidocaine 0.04 MG/MG Medicated Patch [Absorbine Lidocaine]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1737778",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Lidocaine 0.04 MG/MG Medicated Patch",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "993830",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Menthol 0.04 MG/MG Topical Gel [Absorbine Veterinary]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "415974",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Menthol 0.04 MG/MG Topical Gel",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1361217",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "chloroxylenol 5 MG/ML / Iodine 0.2 MG/ML / Menthol 12.7 MG/ML Topical Solution [Absorbine Veterinary Liniment]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1361212",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "chloroxylenol 5 MG/ML / Iodine 0.2 MG/ML / Menthol 12.7 MG/ML Topical Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1547563",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Isotretinoin 25 MG Oral Capsule [Absorica]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1547561",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Isotretinoin 25 MG Oral Capsule",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1547565",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Isotretinoin 35 MG Oral Capsule",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "197843",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Isotretinoin 10 MG Oral Capsule",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "197844",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Isotretinoin 20 MG Oral Capsule",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "403930",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Isotretinoin 30 MG Oral Capsule",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "197845",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Isotretinoin 40 MG Oral Capsule",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "1053651",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Fentanyl 0.1 MG Sublingual Tablet [Abstral]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1053647",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Fentanyl 0.1 MG Sublingual Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1053652",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Fentanyl 0.2 MG Sublingual Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1053655",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Fentanyl 0.3 MG Sublingual Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1053658",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Fentanyl 0.4 MG Sublingual Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1053661",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Fentanyl 0.6 MG Sublingual Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      },
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "1053664",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Fentanyl 0.8 MG Sublingual Tablet",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "833086",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Smallpox Vaccine Live, New York City Board of Health Vaccinia Strain 500000000 UNT/ML Injectable Solution [ACAM2000]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "833082",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Smallpox Vaccine Live, New York City Board of Health Vaccinia Strain 500000000 UNT/ML Injectable Solution",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
+  },
+  {
+    "Key": {
+      "SystemElement": {
+        "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "885133",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": {
+        "Value": "Benzoyl Peroxide 0.025 MG/MG / clindamycin phosphate 0.012 MG/MG Topical Gel [Acanya]",
+        "ElementId": null,
+        "Extension": []
+      },
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    "Value": [
+      {
+        "SystemElement": {
+          "Value": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "ElementId": null,
+          "Extension": []
+        },
+        "VersionElement": null,
+        "CodeElement": {
+          "Value": "885131",
+          "ElementId": null,
+          "Extension": []
+        },
+        "DisplayElement": {
+          "Value": "Benzoyl Peroxide 0.025 MG/MG / clindamycin phosphate 0.012 MG/MG Topical Gel",
+          "ElementId": null,
+          "Extension": []
+        },
+        "UserSelectedElement": null,
+        "ElementId": null,
+        "Extension": []
+      }
+    ]
   }
 ]
-}
