@@ -1,0 +1,646 @@
+﻿{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "meta": {
+    "lastUpdated": "2019-06-26T00:21:52.729Z"
+  },
+  "entry": [
+    {
+      "fullUrl": "RiskAssessment/risk-adherence-copd",
+      "request": {
+        "method": "PUT",
+        "url": "RiskAssessment/risk-adherence-copd"
+      },
+      "resource": {
+        "resourceType": "RiskAssessment",
+        "id": "risk-adherence-copd",
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Current use of medication makes this cost savings inappropriate</p>\n    </div>"
+        },
+        "condition": {
+          "reference": "Condition/condition-adherence-copd"
+        }
+      }
+    },
+    {
+      "fullUrl": "Condition/condition-adherence-copd",
+      "request": {
+        "method": "PUT",
+        "url": "Condition/condition-adherence-copd"
+      },
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-adherence-copd",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Current use of medication makes this cost savings inappropriate</div>"
+        },
+        "stage": {
+          "assessment": [
+            {
+              "reference": "Observation/gender-identity"
+            },
+            {
+              "reference": "Observation/age-identity"
+            },
+            {
+              "reference": "Observation/drug-pdc-copd"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/gender-identity",
+      "request": {
+        "method": "PUT",
+        "url": "Observation/gender-identity"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "gender-identity",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "76691-5",
+              "display": "Gender identity"
+            }
+          ],
+          "text": "Gender identity"
+        },
+        "valueQuantity": {
+          "value": "2.0",
+          "system": "http://loinc.org",
+          "code": "Identifies as female"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/age-identity",
+      "request": {
+        "method": "PUT",
+        "url": "Observation/age-identity"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "age-identity",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "30525-0",
+              "display": "Age"
+            }
+          ],
+          "text": "Age"
+        },
+        "valueQuantity": {
+          "value": "55.0",
+          "system": "http://loinc.org"
+        }
+      }
+    },
+    {
+      "fullUrl": "Observation/drug-pdc-copd",
+      "request": {
+        "method": "PUT",
+        "url": "Observation/drug-pdc-copd"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "drug-pdc-copd",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: f001</p><p><b>identifier</b>: 6323 (OFFICIAL)</p><p><b>status</b>: final</p><p><b>code</b>: Glucose [Moles/volume] in Blood <span>(Details : {LOINC code '15074-8' = 'Glucose [Moles/volume] in Blood', given as 'Glucose [Moles/volume] in Blood'})</span></p><p><b>subject</b>: <a>P. van de Heuvel</a></p><p><b>effective</b>: 02/04/2013 9:30:10 AM --&gt; (ongoing)</p><p><b>issued</b>: 03/04/2013 3:30:10 PM</p><p><b>performer</b>: <a>A. Langeveld</a></p><p><b>value</b>: 6.3 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></p><p><b>interpretation</b>: High <span>(Details : {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation code 'H' = 'High', given as 'High'})</span></p><h3>ReferenceRanges</h3><table><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td>*</td><td>3.1 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td><td>6.2 mmol/l<span> (Details: UCUM code mmol/L = 'mmol/L')</span></td></tr></table></div>"
+        },
+        "interpretation": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "LX",
+              "display": "Below low threshold"
+            }
+          ]
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": "80"
+            }
+          }
+        ],
+        "component": [
+          {
+            "id": "component-drug-detection-copd-ARCAPTA------CAP-75MCG-1114333",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1114333",
+                  "display": "Indacaterol-Maleate-Inhal-Powder-Cap-75-MCG-(Base-Equiv)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SEEBRI-NEOHA-CAP-15.6MCG-1721308",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1721308",
+                  "display": "Glycopyrrolate-Inhal-Cap-15.6-MCG"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-UTIBRON------CAP-NEOHALER-1720953",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1720953",
+                  "display": "Indacaterol-Glycopyrrolate-Inhal-Cap-27.5-15.6-MCG"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-FORADIL------CAP-AEROLIZE-1246328",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1246328",
+                  "display": "Formoterol-Fumarate-Inhal-Cap-12-MCG"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SEREVENT-DIS-AER-50MCG-866047",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "866047",
+                  "display": "Salmeterol-Xinafoate-Aer-Pow-BA-50-MCG/DOSE-(Base-Equiv)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SEREVENT-DIS-AER-50MCG-866049",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "866049",
+                  "display": "Salmeterol-Xinafoate-Aer-Pow-BA-50-MCG/DOSE-(Base-Equiv)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-ADVAIR-DISKU-AER-250/50-896212",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "896212",
+                  "display": "Fluticasone-Salmeterol-Aer-Powder-BA-250-50-MCG/DOSE"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-ADVAIR-DISKU-AER-250/50-896190",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "896190",
+                  "display": "Fluticasone-Salmeterol-Aer-Powder-BA-250-50-MCG/DOSE"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-BREO-ELLIPTA-INH-100-25-1539893",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1539893",
+                  "display": "Fluticasone-Furoate-Vilanterol-Aero-Powd-BA-100-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-BREO-ELLIPTA-INH-100-25-1539891",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1539891",
+                  "display": "Fluticasone-Furoate-Vilanterol-Aero-Powd-BA-100-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-ANORO-ELLIPT-AER-62.5-25-1487524",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1487524",
+                  "display": "Umeclidinium-Vilanterol-Aero-Powd-BA-62.5-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-ANORO-ELLIPT-AER-62.5-25-1487528",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1487528",
+                  "display": "Umeclidinium-Vilanterol-Aero-Powd-BA-62.5-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-INCRUSE-ELPT-INH-62.5MCG-1596445",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1596445",
+                  "display": "Umeclidinium-Br-Aero-Powd-Breath-Act-62.5-MCG/INH-(Base-Eq)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-INCRUSE-ELPT-INH-62.5MCG-1539885",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1539885",
+                  "display": "Umeclidinium-Br-Aero-Powd-Breath-Act-62.5-MCG/INH-(Base-Eq)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-BREO-ELLIPTA-INH-200-25-1648789",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1648789",
+                  "display": "Fluticasone-Furoate-Vilanterol-Aero-Powd-BA-200-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-BREO-ELLIPTA-INH-200-25-1648785",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1648785",
+                  "display": "Fluticasone-Furoate-Vilanterol-Aero-Powd-BA-200-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-TRELEGY------AER-ELLIPTA-1945048",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1945048",
+                  "display": "Fluticasone-Umeclidinium-Vilanterol-AEPB-100-62.5-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-TRELEGY------AER-ELLIPTA-1945044",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1945044",
+                  "display": "Fluticasone-Umeclidinium-Vilanterol-AEPB-100-62.5-25-MCG/INH"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SYMBICORT----AER-160-4.5-1246306",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1246306",
+                  "display": "Budesonide-Formoterol-Fumarate-Dihyd-Aerosol-160-4.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SYMBICORT----AER-160-4.5-1246317",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1246317",
+                  "display": "Budesonide-Formoterol-Fumarate-Dihyd-Aerosol-160-4.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SYMBICORT----AER-80-4.5-1246290",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1246290",
+                  "display": "Budesonide-Formoterol-Fumarate-Dihyd-Aerosol-80-4.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SYMBICORT----AER-80-4.5-1246315",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1246315",
+                  "display": "Budesonide-Formoterol-Fumarate-Dihyd-Aerosol-80-4.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-TUDORZA-PRES-AER-400/ACT-1607112",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1607112",
+                  "display": "Aclidinium-Bromide-Aerosol-Powd-Breath-Activated-400-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-TUDORZA-PRES-AER-400/ACT-1303107",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1303107",
+                  "display": "Aclidinium-Bromide-Aerosol-Powd-Breath-Activated-400-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-BEVESPI------AER-9-4.8MCG-1790644",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1790644",
+                  "display": "Glycopyrrolate-Formoterol-Fumarate-Aerosol-9-4.8-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-WIXELA-INHUB-AER-250/50-2110513",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "2110513",
+                  "display": "Fluticasone-Salmeterol-Aer-Powder-BA-250-50-MCG/DOSE"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SPIRIVA------CAP-HANDIHLR-580261",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "580261",
+                  "display": "Tiotropium-Bromide-Monohydrate-Inhal-Cap-18-MCG-(Base-Equiv)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SPIRIVA------SPR-2.5MCG-1552009",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1552009",
+                  "display": "Tiotropium-Bromide-Monohydrate-Inhal-Aerosol-2.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SPIRIVA------SPR-2.5MCG-1552004",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1552004",
+                  "display": "Tiotropium-Bromide-Monohydrate-Inhal-Aerosol-2.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-STIOLTO------AER-2.5-2.5-1651271",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1651271",
+                  "display": "Tiotropium-Br-Olodaterol-Inhal-Aero-Soln-2.5-2.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-STIOLTO------AER-2.5-2.5-1651275",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1651275",
+                  "display": "Tiotropium-Br-Olodaterol-Inhal-Aero-Soln-2.5-2.5-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-SPIRIVA------AER-1.25MCG-1667882",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1667882",
+                  "display": "Tiotropium-Bromide-Monohydrate-Inhal-Aerosol-1.25-MCG/ACT"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-STRIVERDI----AER-2.5MCG-1546083",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1546083",
+                  "display": "Olodaterol-HCl-Inhal-Aerosol-Soln-2.5-MCG/ACT-(Base-Equiv)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-PERFOROMIST--NEB-20MCG-1246321",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1246321",
+                  "display": "Formoterol-Fumarate-Soln-Nebu-20-MCG/2ML"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-PERFOROMIST-20-MCG/2-ML-SOLN-1246321",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1246321",
+                  "display": "Formoterol-Fumarate-Soln-Nebu-20-MCG/2ML"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-YUPELRI------SOL-2102784",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "2102784",
+                  "display": "Revefenacin-Inhalation-Solution-175-MCG/3ML"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-LONHALA-MAGN-SOL-25MCG-1992571",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "1992571",
+                  "display": "Glycopyrrolate-Inhal-Solution-25-MCG/ML"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-BROVANA------NEB-15MCG-695935",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "695935",
+                  "display": "Arformoterol-Tartrate-Soln-Nebu-15-MCG/2ML-(Base-Equiv)"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          },
+          {
+            "id": "component-drug-detection-copd-FLUTIC/SALME-AER-250/50-896209",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "896209",
+                  "display": "Fluticasone-Salmeterol-Aer-Powder-BA-250-50-MCG/DOSE"
+                }
+              ]
+            },
+            "referenceRange": [ { "low": { "value": "1.0" } } ]
+          }
+        ]
+      }
+    }
+  ]
+}
