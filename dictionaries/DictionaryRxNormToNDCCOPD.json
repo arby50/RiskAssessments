@@ -1,0 +1,1319 @@
+{
+  "1114333": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00078061915",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00078061961",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402067501",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402067530",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1721308": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00078066219",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402081501",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402081506",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402081560",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1720953": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00078066406",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00078066419",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402068101",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402068106",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402068160",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1246328": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00085140101",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00085140201",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00085140202",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "54868497201",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "866047": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173052000",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "49999030028",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "866049": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173052100",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "68258896106",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "896212": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173069600",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "21695019601",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "33261087401",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "50090073100",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "54868451700",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "68258303101",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "896190": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173069604",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1539893": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173085910",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1539891": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173085914",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1487524": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173086906",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1487528": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173086910",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1596445": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173087306",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1539885": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173087310",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1648789": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173088210",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1648785": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173088214",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1945048": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173088710",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1945044": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00173088714",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1246306": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00186037020",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "54868593600",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1246317": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00186037028",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1246290": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00186037220",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "54868593700",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1246315": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00186037228",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1607112": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00310080039",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1303107": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00310080060",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1790644": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00310460012",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00310460039",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "2110513": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00378932132",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "580261": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597007541",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597007547",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597007575",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "54868510900",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "54868510901",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1552009": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597010028",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597010031",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1552004": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597010061",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1651271": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597015531",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1651275": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597015561",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1667882": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597016061",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1546083": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "00597019261",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1246321": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "49502060530",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "49502060561",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "49502060595",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "2102784": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "49502080632",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "49502080693",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "1992571": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402020100",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402030101",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "695935": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402091101",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402091104",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402091130",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    },
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "63402091164",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ],
+  "896209": [
+    {
+      "SystemElement": {
+        "Value": "http://hl7.org/fhir/sid/ndc",
+        "ElementId": null,
+        "Extension": []
+      },
+      "VersionElement": null,
+      "CodeElement": {
+        "Value": "66993058597",
+        "ElementId": null,
+        "Extension": []
+      },
+      "DisplayElement": null,
+      "UserSelectedElement": null,
+      "ElementId": null,
+      "Extension": []
+    }
+  ]
+}
