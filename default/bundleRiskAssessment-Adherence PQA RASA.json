@@ -132,10 +132,10 @@
         "referenceRange": [
           {
             "low": {
-              "value": "50"
+              "value": "85"
             },
             "high": {
-              "value": "85"
+              "value": "50"
             }
           }
         ],
