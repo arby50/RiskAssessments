@@ -141,7 +141,7 @@
         ],
         "component": [
           {
-            "id": "component-drug-detection-pqa-rasa-ace-inhibitors",
+            "id": "component-drug-pdc-pqa-rasa-ace-inhibitors",
             "code": {
               "coding": [
                 {
